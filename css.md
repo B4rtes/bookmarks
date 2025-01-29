@@ -8,6 +8,10 @@
 
 `margin-inline` -- responsible for _left_ and _right_; `margin-block` -- for _top_ and _bottom_. The purpose is to follow direction convention...
 
+### Flex stuff
+
+* [How `flex` property works](https://ishadeed.com/article/css-flex-property/). In a nutshell, `flex-grow` specifies how much of _available_ space an item will take compare to other items. It's _not_ about equal space distribution between items.
+
 ### Grid template columns
    _auto-fit_ -- takes all available in a row, even if two elements are presented. That's will stretch these two elements to fit all empty space.
    _auto-fill_ -- keeps some empty space for potential elements that may be added. Might be suitable for shop items grid.
