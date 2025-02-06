@@ -19,6 +19,10 @@
 }
 
 .grid-ish > * {
+   flex: 1; /* 1 1 auto; it means justify all elements inside a container equally */
+}
+
+.grid-ish > * {
    flex: 1 1 33%; /* if there are 5 items, then 3 of them will span on the first line, the last two will be spanned equally on the next line */
    /* flex: 0 1 33%; similar to the previous one, except two items won't be justified along the line */
 }
