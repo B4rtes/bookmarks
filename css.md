@@ -45,7 +45,8 @@
 
 #### Justify and Align
 In Grid system there are several options:
-* _*justify-items*_ -- sets how to position each item (horizontally) inside a grid's cell (_start | end | center | space-between |..._).
-* _*align-items*_ -- sets how to position each item (vertically) inside a grid's cell (_start | end | center | space-between |..._).
-* _*justify-content*_ -- sets how to position (horizontally) the whole grid _(container's content)_ in the container (only if the grid size is less than container's one).
-* _*align-content*_ -- sets how to position (vertically) the whole grid _(container's content)_ in the container (only if the grid size is less than container's one).
+
+* ***justify-items*** -- sets how to position each item (horizontally) inside a grid's cell (_start | end | center | space-between |..._).
+* ***align-items*** -- sets how to position each item (vertically) inside a grid's cell (_start | end | center | space-between |..._).
+* ***justify-content*** -- sets how to position (horizontally) the whole grid _(container's content)_ inside the container (only if the grid size is less than container's one).
+* ***align-content*** -- sets how to position (vertically) the whole grid _(container's content)_ inside the container (only if the grid size is less than container's one).
