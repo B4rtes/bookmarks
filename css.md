@@ -28,8 +28,11 @@
 }
 ```
 
-### Grid template columns
+### Grid
+
+#### Template columns
    _auto-fit_ -- takes all available in a row, even if two elements are presented. That's will stretch these two elements to fit all empty space.
+
    _auto-fill_ -- keeps some empty space for potential elements that may be added. Might be suitable for shop items grid.
 ```css
 .grid {
@@ -38,3 +41,11 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   overflow-wrap: break-word; /* optional. Useful for long words */
 }
+```
+
+#### Justify and Align
+In Grid system there are several options:
+* _*justify-items*_ -- sets how to position each item (horizontally) inside a grid's cell (_start | end | center | space-between |..._).
+* _*align-items*_ -- sets how to position each item (vertically) inside a grid's cell (_start | end | center | space-between |..._).
+* _*justify-content*_ -- sets how to position (horizontally) the whole grid _(container's content)_ in the container (only if the grid size is less than container's one).
+* _*align-content*_ -- sets how to position (vertically) the whole grid _(container's content)_ in the container (only if the grid size is less than container's one).
