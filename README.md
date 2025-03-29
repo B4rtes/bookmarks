@@ -3,6 +3,7 @@
 The goal is to keep it in one place and use it once in a while :)
 
 1. **[What would you do if you knew you couldn't fail?](https://davidwells.io/blog/what-would-you-do-if-you-knew-you-couldnt-fail)**
+2. **[Ports and adapters. Easy overview](https://wkrzywiec.medium.com/ports-adapters-architecture-on-example-19cab9e93be7)**
 
 
 ## YouTube channels
