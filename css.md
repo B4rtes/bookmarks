@@ -11,6 +11,8 @@
 ### Flex stuff
 
 * [How `flex` property works](https://ishadeed.com/article/css-flex-property/). In a nutshell, `flex-grow` specifies how much of _available_ space an item will take compare to other items. It's _not_ about equal space distribution between items.
+* Default `flex` is `grow: 0, shring: 1, basis: auto`. So elements take only necessary space horizontally (don't span) and will decrease in size if container will be small.
+* Default `align-items: stretch`, so it means the items height will be equal to the highest one. An additional value is `baseline`, it means adjust on the content bottom point.
 * `grid-ish` or how to create _grid_ similar structure.
 ```css
 .grid-ish {
@@ -27,6 +29,8 @@
    /* flex: 0 1 33%; similar to the previous one, except two items won't be justified along the line */
 }
 ```
+
+`margin-right: auto` it's similar to `flex:1`, but it just *gives* space, not takes it.
 
 ### Grid
 
