@@ -54,3 +54,10 @@ In Grid system there are several options:
 * ***align-items*** -- sets how to position each item (vertically) inside a grid's cell (_start | end | center | space-between |..._).
 * ***justify-content*** -- sets how to position (horizontally) the whole grid _(container's content)_ inside the container (only if the grid size is less than container's one).
 * ***align-content*** -- sets how to position (vertically) the whole grid _(container's content)_ inside the container (only if the grid size is less than container's one).
+
+
+#### Grid Auto
+
+There are two types of grids: _explicit_ and _implicit_.
+_Explicit_ applied when it's defined with _grid-template-*_. The settings will be applied to the items inside the area.
+_Implicit_, on the other hand, applied when there are items that are not fit in explicit definition. For example, if you defined 2 columns and 2 rows, but there are 5 items. So the structure fits 4 elements only. Therefore, the 5th one will be in the _implicit_ grid, and _grid-auto-*_ property will configure such items.
