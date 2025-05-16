@@ -60,6 +60,8 @@ In Grid system there are several options:
 
 There are two types of grids: _explicit_ and _implicit_.
 
-_Explicit_ applied when it's defined with _grid-template-*_. The settings will be applied to the items inside the area.
+_Explicit_ applied when it's defined with `grid-template-*`. The settings will be applied to the items inside the area.
 
-_Implicit_, on the other hand, applied when there are items that are not fit in explicit definition. For example, if you defined 2 columns and 2 rows, but there are 5 items. So the structure fits 4 elements only. Therefore, the 5th one will be in the _implicit_ grid, and _grid-auto-*_ property will configure such items.
+_Implicit_, on the other hand, applied when there are items that are not fit in explicit definition. For example, if you defined 2 columns and 2 rows, but there are 5 items. So the structure fits 4 elements only. Therefore, the 5th one will be in the _implicit_ grid, and `grid-auto-*` property will configure such items.
+
+It's also possible to specify how those additional items will be added. By default, it's added like _rows_, but using `grid-auto-flow: column` it will be positioned like additional columns.
